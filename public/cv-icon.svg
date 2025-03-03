@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="100" fill="#1976d2"/>
+  
+  <!-- Paper effect -->
+  <rect x="96" y="56" width="320" height="400" rx="20" fill="white"/>
+  
+  <!-- Text lines -->
+  <rect x="136" y="136" width="240" height="16" rx="8" fill="#e0e0e0"/>
+  <rect x="136" y="176" width="200" height="16" rx="8" fill="#e0e0e0"/>
+  <rect x="136" y="216" width="220" height="16" rx="8" fill="#e0e0e0"/>
+  
+  <!-- Profile circle -->
+  <circle cx="176" cy="96" r="24" fill="#1976d2"/>
+  
+  <!-- Skills section -->
+  <rect x="136" y="276" width="80" height="24" rx="12" fill="#1976d2" opacity="0.8"/>
+  <rect x="236" y="276" width="80" height="24" rx="12" fill="#1976d2" opacity="0.8"/>
+  <rect x="136" y="316" width="80" height="24" rx="12" fill="#1976d2" opacity="0.8"/>
+  
+  <!-- Bottom lines -->
+  <rect x="136" y="376" width="240" height="16" rx="8" fill="#e0e0e0"/>
+  <rect x="136" y="416" width="180" height="16" rx="8" fill="#e0e0e0"/>
+</svg> 

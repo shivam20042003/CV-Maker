@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react'
-import { ThemeProvider, CssBaseline, Container, Box, Paper, Tabs, Tab } from '@mui/material'
+import { ThemeProvider, CssBaseline, Container, Box, Paper, Tabs, Tab, AppBar, Toolbar, Typography } from '@mui/material'
 import { createTheme } from '@mui/material/styles'
 import UserDetailsForm from './components/CVForm/UserDetailsForm'
 import ATSTemplate from './components/CVTemplates/ATSTemplate'
@@ -45,6 +45,19 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      <AppBar position="static" elevation={0} sx={{ mb: 3 }}>
+        <Toolbar>
+          <Box
+            component="img"
+            src="/cv-icon.svg"
+            alt="CV Builder Logo"
+            sx={{ width: 40, height: 40, mr: 2 }}
+          />
+          <Typography variant="h6" component="h1" sx={{ flexGrow: 1 }}>
+            CV Builder
+          </Typography>
+        </Toolbar>
+      </AppBar>
       <Container maxWidth="lg">
         <Box sx={{ my: 4 }}>
           {!cvData ? (
